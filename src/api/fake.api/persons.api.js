@@ -94,7 +94,7 @@ const persons = [
     lastName: 'Олефиренко ',
     age: 46,
     personInfo:
-      "В it сфере с 2006 года, начинал верстальщиком с 2009 года являюсь разработчиком на php CMS Bitrix, c 2019 года на Laravel. Сейчас прохожу курс JavaScript Junior Frontend Developer, после успешного прохождения которого настроен работать Frontend Developer'ом",
+      'В it сфере с 2006 года, начинал верстальщиком с 2009 года являюсь разработчиком на php CMS Bitrix, c 2019 года на Laravel. Сейчас прохожу курс JavaScript Junior Frontend Developer, после успешного прохождения которого настроен работать Frontend Developer`ом',
     image: '/images/eaol.jpg',
     social: {
       facebook: 'https://www.facebook.com/profile.php?id=100001914199120',

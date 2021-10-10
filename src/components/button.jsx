@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Button = ({ color, clickAction, nameButt }) => {
   let classNames = 'btn btn-'
@@ -10,6 +11,12 @@ const Button = ({ color, clickAction, nameButt }) => {
       </button>
     </div>
   )
+}
+
+Button.propTypes = {
+  color: PropTypes.string,
+  clickAction: PropTypes.func,
+  nameButt: PropTypes.string
 }
 
 export default Button

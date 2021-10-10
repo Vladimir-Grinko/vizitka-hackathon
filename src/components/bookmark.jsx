@@ -13,5 +13,5 @@ const Bookmark = ({ persons, onBookmark }) => {
     </>
   )
 }
-Bookmark.propTypes = { persons: PropTypes.array.isRequired }
+Bookmark.propTypes = { persons: PropTypes.array.isRequired, onBookmark: PropTypes.func }
 export default Bookmark
